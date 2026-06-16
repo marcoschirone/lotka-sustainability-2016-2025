@@ -1,0 +1,9 @@
+"parameter","value"
+"xmin",13
+"alpha",3.41560840843184
+"gof_p_value",0.002
+"vuong_stat",-2.44535008789731
+"vuong_p_two_sided",0.0144711595570791
+"n_unique_authors",398085
+"n_unique_papers",143183
+"max_pubs_per_author",156

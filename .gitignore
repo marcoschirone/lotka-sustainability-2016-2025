@@ -1,0 +1,19 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# Raw Scopus/SciVal data — proprietary, must never be committed
+data/
+*.xlsx
+# Exception: the fully synthetic sample is safe to publish
+!sample_data/*.xlsx
+
+# Per-author productivity file contains raw Scopus Author IDs —
+# distributed on reasonable request only, not via the public repository
+author_productivity_2016_2025.csv
+
+# OS files
+.DS_Store
+Thumbs.db
