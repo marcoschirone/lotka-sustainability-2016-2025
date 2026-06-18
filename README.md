@@ -132,13 +132,13 @@ So that the pipeline can be exercised without the proprietary export, the `sampl
 
 Running `Lotka.R` against the synthetic sample reproduces the **workflow** (and produces all output files) but **not** the published figures, which depend on the full proprietary dataset. See [Reproducibility Workflow](#reproducibility-workflow).
 
-### Publication DOIs (`DOIs_STI_2026_poster.txt`)
+### Publication DOIs (`DOIs_publications.txt`)
 
 The DOIs of the analysed publication set are shared at the repository root in `DOIs_STI_2026_poster.txt`.
 
 | Item | Description |
 |---|---|
-| File | `DOIs_STI_2026_poster.txt` |
+| File | `DOIs_publications.txt` |
 | Format | Plain text: a `DOI` header line followed by one DOI per line |
 | Purpose | Identifies the publications analysed, so others can retrieve the same records from the publishers/Scopus |
 
