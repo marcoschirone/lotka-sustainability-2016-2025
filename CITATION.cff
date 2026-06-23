@@ -1,47 +1,22 @@
 cff-version: 1.2.0
-message: “If you use this code or the derived data, please cite this repository. To cite the underlying research, see the poster listed under references.”
+message: "If you use this code or the derived data, please cite this repository."
 
-title: “Revisiting Lotka’s law: patterns of author productivity in sustainability science”
+title: "Revisiting Lotka's law: patterns of author productivity in sustainability science"
 type: software
 
 authors:
-
-* family-names: Schirone
+  - family-names: Schirone
     given-names: Marco
-    orcid: “https://orcid.org/0000-0002-4166-153X”
-    affiliation: “Chalmers University of Technology; University of Borås”
-* family-names: Rahman
-    given-names: “A. I. M. Jakaria”
-    orcid: “https://orcid.org/0000-0001-7876-4631”
-    affiliation: “Chalmers University of Technology”
+    orcid: "https://orcid.org/0000-0002-4166-153X"
+    affiliation: "Chalmers University of Technology; University of Boras"
+  - family-names: Rahman
+    given-names: "A. I. M. Jakaria"
+    orcid: "https://orcid.org/0000-0001-7876-4631"
+    affiliation: "Chalmers University of Technology"
 
-version: “1.0.0”
-date-released: “2026-06-23”
+version: "1.0.1"
+date-released: "2026-06-23"
 
-repository-code: “https://github.com/marcoschirone/lotka-sustainability-2016-2025”
-url: “https://github.com/marcoschirone/lotka-sustainability-2016-2025”
+repository-code: "https://github.com/marcoschirone/lotka-sustainability-2016-2025"
+url: "https://github.com/marcoschirone/lotka-sustainability-2016-2025"
 license: MIT
-
-keywords:
-
-* “Lotka’s law”
-* author productivity
-* sustainability science
-* power-law
-* lognormal
-* bibliometrics
-* science and technology indicators
-
-references:
-
-* type: conference-paper
-    title: “Revisiting Lotka’s law: patterns of author productivity in sustainability science”
-    authors:
-    * family-names: Schirone
-        given-names: Marco
-        orcid: “https://orcid.org/0000-0002-4166-153X”
-    * family-names: Rahman
-        given-names: “A. I. M. Jakaria”
-        orcid: “https://orcid.org/0000-0001-7876-4631”
-        collection-title: “Proceedings of the International Conference on Science and Technology Indicators (STI 2026)”
-        year: 2026
