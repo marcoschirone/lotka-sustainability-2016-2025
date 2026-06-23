@@ -140,16 +140,28 @@ This is a Scopus export covering 29 sustainability science journals for 2016–2
 DOIs_publications.txt
 ```
 
+<<<<<<< HEAD
 Contains the DOIs of the publications in the analysed corpus. DOIs are identifiers rather than licensed records and are provided to enable independent verification and corpus reconstruction.
+=======
+### Publication DOIs (`DOIs_publications.txt`)
+>>>>>>> d3feaad5e090eee38362d7363ed637a4bdd3583a
 
 ### Derived data (included)
 
+<<<<<<< HEAD
 | File | Description |
 |------|-------------|
 | `author_productivity_2016_2025.csv` | One row per unique author; columns `AuthorID`, `n_pubs` |
 | `lotka_frequency_table_2016_2025.csv` | Frequency table: number of authors by publication count |
 | `lotka_fit_summary_2016_2025.csv` | Fit parameters: xmin, α, GOF p-value, Vuong statistic and two-sided p-value, author and paper counts, maximum publications per author |
 | `lotka_inequality_summary_2016_2025.csv` | Gini coefficient, top 10% share, top 1% share |
+=======
+| Item | Description |
+|---|---|
+| File | `DOIs_publications.txt` |
+| Format | Plain text: a `DOI` header line followed by one DOI per line |
+| Purpose | Identifies the publications analysed, so others can retrieve the same records from the publishers/Scopus |
+>>>>>>> d3feaad5e090eee38362d7363ed637a4bdd3583a
 
 ---
 
