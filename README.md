@@ -31,19 +31,22 @@ lotka-sustainability-2016-2025/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
-├── Lotka.R                                  # Single analysis script (Modules 1–10)
-├── DOIs_publications.txt                    # DOI list of the analysed publication corpus
+├── Lotka.R                                        # Single analysis script (Modules 1–10)
+├── DOIs_publications.txt                          # DOI list of the analysed publication corpus
 │
 ├── data/
-│   └── STI 2026 Poster Data 2016-2025.xlsx  # Proprietary Scopus export (NOT included)
+│   ├── README.md                                  # Description of the synthetic sample data
+│   ├── STI_2026_Poster_Data_2016-2025_SYNTHETIC_SAMPLE.xlsx
+│   ├── STI_2026_Poster_Data_2016-2025_SYNTHETIC_SAMPLE.csv
+│   └── STI 2026 Poster Data 2016-2025.xlsx        # Proprietary Scopus export (user supplied; not included)
 │
-├── author_productivity_2016_2025.csv        # Derived output
-├── lotka_frequency_table_2016_2025.csv      # Derived output
-├── lotka_fit_summary_2016_2025.csv          # Derived output
-├── lotka_inequality_summary_2016_2025.csv   # Derived output
-├── lotka_loglog_2016_2025.png               # Derived figure
-├── lotka_fit_overlay_2016_2025.png          # Derived figure
-└── lorenz_curve_2016_2025.png               # Derived figure
+├── author_productivity_2016_2025.csv              # Derived output
+├── lotka_frequency_table_2016_2025.csv            # Derived output
+├── lotka_fit_summary_2016_2025.csv                # Derived output
+├── lotka_inequality_summary_2016_2025.csv         # Derived output
+├── lotka_loglog_2016_2025.png                     # Derived figure
+├── lotka_fit_overlay_2016_2025.png                # Derived figure
+└── lorenz_curve_2016_2025.png                     # Derived figure
 ```
 
 > **Note on paths.** `Lotka.R` reads its single input from `data/` and writes all seven output
@@ -124,7 +127,7 @@ The analysis requires a single input file:
 data/STI 2026 Poster Data 2016-2025.xlsx
 ```
 
-This is a Scopus export covering 29 sustainability science journals for 2016–2025. Module 1 reads the following columns:
+The `data/` directory is included in the repository as an empty placeholder. Users must place the proprietary Scopus export file in this directory before running the analysis.
 
 | Column | Description |
 |--------|-------------|
@@ -134,34 +137,23 @@ This is a Scopus export covering 29 sustainability science journals for 2016–2
 
 **This file is proprietary and is not included in the repository.** It was retrieved via the Scopus API and is subject to Elsevier's licensing terms. A researcher with Scopus access can reconstruct the corpus from `DOIs_publications.txt` and export the columns above.
 
+
 ### Publication DOI list
 
 ```text
 DOIs_publications.txt
 ```
 
-<<<<<<< HEAD
 Contains the DOIs of the publications in the analysed corpus. DOIs are identifiers rather than licensed records and are provided to enable independent verification and corpus reconstruction.
-=======
-### Publication DOIs (`DOIs_publications.txt`)
->>>>>>> d3feaad5e090eee38362d7363ed637a4bdd3583a
 
 ### Derived data (included)
 
-<<<<<<< HEAD
 | File | Description |
 |------|-------------|
 | `author_productivity_2016_2025.csv` | One row per unique author; columns `AuthorID`, `n_pubs` |
 | `lotka_frequency_table_2016_2025.csv` | Frequency table: number of authors by publication count |
 | `lotka_fit_summary_2016_2025.csv` | Fit parameters: xmin, α, GOF p-value, Vuong statistic and two-sided p-value, author and paper counts, maximum publications per author |
 | `lotka_inequality_summary_2016_2025.csv` | Gini coefficient, top 10% share, top 1% share |
-=======
-| Item | Description |
-|---|---|
-| File | `DOIs_publications.txt` |
-| Format | Plain text: a `DOI` header line followed by one DOI per line |
-| Purpose | Identifies the publications analysed, so others can retrieve the same records from the publishers/Scopus |
->>>>>>> d3feaad5e090eee38362d7363ed637a4bdd3583a
 
 ---
 
